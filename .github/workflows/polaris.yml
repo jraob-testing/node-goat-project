@@ -24,8 +24,8 @@ jobs:
           polaris_waitForScan: true
 
           # Test Locations
-          # polaris_test_sast_location: "Hybrid"
-          # polaris_test_sca_location: "Remote"
+          polaris_test_sast_location: "Hybrid"
+          polaris_test_sca_location: "Hybrid"
 
           bridgecli_download_url: "https://artifactory.tools.duckutil.net/artifactory/clops-local/integrations/bridge/binaries/bridge-cli-bundle/4.1.0rc3/bridge-cli-bundle-4.1.0rc3-macosx.zip"
 
