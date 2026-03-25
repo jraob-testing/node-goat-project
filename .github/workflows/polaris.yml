@@ -31,18 +31,17 @@ jobs:
 
           # Polaris Fix PR Configuration
           polaris_fixpr_enabled: true
-          
           polaris_fixpr_maxCount: 5
-          # polaris_fixpr_useUpgradeGuidance: "SHORT_TERM,LONG_TERM"
-          # polaris_fixpr_filter_by: "SEVERITIES"
+          polaris_fixpr_useUpgradeGuidance: "SHORT_TERM,LONG_TERM"
+          polaris_fixpr_filter_by: "SEVERITIES"
           polaris_fixpr_filter_severities: "BLOCKER"
 
             # GitHub Configuration
-          github_token: ${{ secrets.TOKEN2 }}
-          github_host_url: "https://github.com"
-          github_repository_owner: "jraob-testing"
-          github_repository_name: "node-goat-project"
-          github_repository_branch: "main"
+          github_token: ${{ secrets.TOKEN1 }}
+          # github_host_url: "https://github.com"
+          # github_repository_owner: "jraob-testing"
+          # github_repository_name: "nodegoat-polaris-test"
+          # github_repository_branch: "main"
 
             # Diagnostics
           include_diagnostics: true
